@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+    background:url('https://source.unsplash.com/1600x900/?weather,trees,mountains,nature,stars');
+    transition: background-image 0.5s;
+}
+
+.card{
+    background-color: #000;
+    opacity: .7;
+    color:white;    
+    border-radius: 30px;
+    padding: 2em;
+    width: 100%;
+    max-width: 340px;
+    margin:20px;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin:10px;
+    outline:none;
+}
+
+.search input{
+    border-radius: 20px;
+    outline:none;
+    height:20px;
+    width: 50%;
+    padding:0.8em 0.8em;
+    background-color: #000;
+    color:white;
+    font-family:inherit;
+    font-size: 100%;
+    text-transform: capitalize;
+}
+
+ul{
+    padding: 2px 1px;
+}
+
+#cityName {
+    text-transform: capitalize;
+  }
+  
+
