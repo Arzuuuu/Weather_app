@@ -40,19 +40,19 @@ const getWeather = (city) => {
       const wind_speed = document.getElementById("wind_speed");
       wind_speed.innerHTML = wind_speed_kph + " km/h";
 
-      const sunriseTimestamp = response.sunrise;
-      const sunsetTimestamp = response.sunset;
+      // const sunriseTimestamp = response.sunrise;
+      // const sunsetTimestamp = response.sunset;
 
-      const sunriseDate = new Date(sunriseTimestamp * 1000);
-      const sunsetDate = new Date(sunsetTimestamp * 1000);
+      // const sunriseDate = new Date(sunriseTimestamp * 1000);
+      // const sunsetDate = new Date(sunsetTimestamp * 1000);
 
-      const sunriseTime = sunriseDate.toLocaleTimeString();
-      const sunsetTime = sunsetDate.toLocaleTimeString();
+      // const sunriseTime = sunriseDate.toLocaleTimeString();
+      // const sunsetTime = sunsetDate.toLocaleTimeString();
 
-      const sunrise = document.getElementById("sunrise");
-      sunrise.innerHTML = sunriseTime;
-      const sunset = document.getElementById("sunset");
-      sunset.innerHTML = sunsetTime;
+      // const sunrise = document.getElementById("sunrise");
+      // sunrise.innerHTML = sunriseTime;
+      // const sunset = document.getElementById("sunset");
+      // sunset.innerHTML = sunsetTime;
 
 
       const backgroundUrl = `https://source.unsplash.com/1600x900/?weather,sunlight,landscape,tornado,storm,time=${Date.now()}`;
