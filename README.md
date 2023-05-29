@@ -1,6 +1,6 @@
 # Weather App
 
-A simple weather application that provides current weather information for a given city. It utilizes the Rapid API to retrieve weather data and displays various weather parameters such as temperature, humidity, wind speed, and more.
+A simple weather application that provides current weather information for any given city. It utilizes the Rapid API to retrieve weather data and displays various weather parameters such as temperature, humidity, wind speed, and more.
 
 ## Installation
 
@@ -12,7 +12,7 @@ A simple weather application that provides current weather information for a giv
 
 1. Enter the name of a city in the search bar.
 2. Click the search button or press Enter to retrieve the weather information for the specified city.
-3. The app will display the current temperature, feels like temperature, humidity, minimum temperature, maximum temperature, wind speed, sunrise time, and sunset time for the given city.
+3. The app will display the current temperature, feels like temperature, humidity, minimum temperature, maximum temperature, wind speed for the given city.
 
 ## API Key
 
@@ -33,7 +33,7 @@ To use this weather app, you need to obtain an API key from Rapid API. Follow th
 
 ## Screenshots
 
-![Weather App Screenshot](weather_app.jpg)
+![Weather App Screenshot](Weather_app.png)
 
 ## Author
 
